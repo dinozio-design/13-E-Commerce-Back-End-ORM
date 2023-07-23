@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-In this week's Challenge I created a web app to make it much easier to take notes on the fly.
+In this week's Challenge I created a web app to ....
 
 ## Table of Contents
 - [User-Story](#user-story)
@@ -18,9 +18,9 @@ In this week's Challenge I created a web app to make it much easier to take note
 ## User-Story
 
 ```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 ```
 
 
@@ -41,15 +41,15 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation
-There is no installation needed. Simply head on over to the deployed app on heroku using the link below.
+<!-- There is no installation needed. Simply head on over to the deployed app on heroku using the link below.
 The app looks and feels like this:
 
 ![Mock Up of the way main page and note pages look”](./mock-up/MyApp01.PNG)
-![After clicking save, new note is added on the left”](./mock-up/MyApp02.PNG)
+![After clicking save, new note is added on the left”](./mock-up/MyApp02.PNG) -->
 
 
 ## Usage
-This app is ment for your to take notes on the fly, and once you are done with your task, you can simply and quickly delete it.
+<!-- This app is ment for your to take notes on the fly, and once you are done with your task, you can simply and quickly delete it. -->
 
 ## License
 This app is covered under MIT license. For details and limitations of this license please visit:
@@ -58,7 +58,7 @@ This app is covered under MIT license. For details and limitations of this licen
 
 ## Contributing
 If you would like to share your feedback and/or contribute your best practices to make our code better, feel free to get in touch with us via:
-  GitHub: [11-Note-Taker-ExpressJS - link](https://github.com/dinozio-design/11-Note-Taker-ExpressJS)<br>
+  GitHub: [13-E-Commerce-Back-End-ORM - link](https://github.com/dinozio-design/13-E-Commerce-Back-End-ORM)<br>
 
 ## Test
 We are using jest for testing the development of the functions. No test have been written for this application yet.
@@ -70,9 +70,9 @@ If you have any questions, you can email them to me.
 
 ### Deployed Links
 
-1. You can find the link to the deployed application **here:** <br> [Note Taker - Heroku link](https://serene-wave-69834-5e095d541a17.herokuapp.com/)
+<!-- 1. You can find the link to the deployed application **here:** <br> [Note Taker - Heroku link](https://serene-wave-69834-5e095d541a17.herokuapp.com/) -->
 
-2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/11-Note-Taker-ExpressJS)
+2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/13-E-Commerce-Back-End-ORM)
 
 ### Authors Notes: 
   _This README and accompanying repo have been brought to you by:_<br>© Sam Azimi - 2023 CodeCamp Studen.<br>Confidential and Proprietary. All Rights Reserved.
