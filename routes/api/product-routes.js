@@ -12,12 +12,11 @@ router.get('/', async (req, res) => {
       include: [
         {
           model: Category,
+          attributes: ['catName'],
         },
-        //   {
-        //     model: Tag,
-        //   },
       ],
     });
+    const tagNames = await 
     res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
@@ -33,9 +32,6 @@ router.get('/:id', async (req, res) => {
       include: [
         {
           model: Category,
-        },
-        {
-          model: Tag,
         },
       ],
     });
@@ -54,11 +50,11 @@ router.post('/', (req, res) => {
 
   /* req.body should look like this...
     {
-      prodName: "Basketball",
-      price: 200.00,
-      stock: 3,
-      categoryId: 1,
-      tagIds: [1, 2, 3, 4]
+      "prodName": "Basketball",
+      "price": 200.00,
+      "stock": 3,
+      "categoryId": 1,
+      "tagIds": [1, 2, 3, 4]
     }
   */
   //  console.log('i mhere',req);
