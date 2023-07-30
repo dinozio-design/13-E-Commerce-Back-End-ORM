@@ -14,9 +14,12 @@ router.get('/', async (req, res) => {
           model: Category,
           attributes: ['catName'],
         },
+        {
+          model: Tag,
+        }
       ],
     });
-    const tagNames = await 
+
     res.status(200).json(productData);
   } catch (err) {
     res.status(400).json(err);
@@ -33,6 +36,9 @@ router.get('/:id', async (req, res) => {
         {
           model: Category,
         },
+        {
+          model: Tag,
+        }
       ],
     });
     if (!productData) {
