@@ -3,7 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-In this week's Challenge I created a web app to ....
+In this week's Challenge I created a backend application using sequelize and Node.js in order to 
+create, seed, and maintain a backend relational database to track products and associated categories and tags.
 
 ## Table of Contents
 - [User-Story](#user-story)
@@ -41,15 +42,14 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation
-<!-- There is no installation needed. Simply head on over to the deployed app on heroku using the link below.
-The app looks and feels like this:
+To get the app running, first you must `npm i`, then run the `schema.sql` and go to seeds folder and run `index.js` to get the database started and populated.
 
-![Mock Up of the way main page and note pages look”](./mock-up/MyApp01.PNG)
-![After clicking save, new note is added on the left”](./mock-up/MyApp02.PNG) -->
+After this you can fire up the server and go to insomnia to check different CRUD operations on the backend.
 
 
 ## Usage
-<!-- This app is ment for your to take notes on the fly, and once you are done with your task, you can simply and quickly delete it. -->
+This app allows the user to create new Categories, products, and tags for each product. Additionally, it allows the user to 
+perform CRUD operation on the backend.
 
 ## License
 This app is covered under MIT license. For details and limitations of this license please visit:
@@ -70,7 +70,10 @@ If you have any questions, you can email them to me.
 
 ### Deployed Links
 
-<!-- 1. You can find the link to the deployed application **here:** <br> [Note Taker - Heroku link](https://serene-wave-69834-5e095d541a17.herokuapp.com/) -->
+1. You can find the video walkthrough of a typical user flow of the application **here:** <br>
+[13-E-Commerce-Back-End-ORM - starting and seeding db - link]()<br>
+[13-E-Commerce-Back-End-ORM - insomnia CRUD operation - link]()<br>
+
 
 2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/13-E-Commerce-Back-End-ORM)
 
